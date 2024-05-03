@@ -1,0 +1,11 @@
+#quickest, but checks if app is in system path, which means you can open it from any directory
+which <appname>
+
+#standard directory navigation to the etc folder
+#try using autocomplete
+
+#Using the apt
+apt list --installed
+
+#using the apt and grep to filter to a single app
+apt list --installed | grep <packagename>
