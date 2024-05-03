@@ -1,0 +1,7 @@
+#These two commands can be used on a first clean install and then to stay up-to-date
+sudo apt update
+
+#This upgrade can take many minutes to work
+sudo apt full-upgrade -y
+
+#kali-linux updating info--> https://www.kali.org/docs/general-use/updating-kali/
